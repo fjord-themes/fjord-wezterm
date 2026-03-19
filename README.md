@@ -44,10 +44,13 @@ git clone https://github.com/fjord-themes/fjord-wezterm.git --depth 1
 
 ```bash
 mkdir -p ~/.config/wezterm/colors/
-cp fjord-WezTerm/themes/fjord.lua ~/.config/wezterm/colors/.
+cp fjord-wezterm/themes/fjord.lua ~/.config/wezterm/colors/.
 ```
 
 3. Add the theme to your WezTerm config (`~/.wezterm.lua`):
+```lua
+config.color_scheme = "fjord"
+```
 
 
 
@@ -62,10 +65,6 @@ The theme includes:
 - Optimized background and foreground colors
 - Custom selection and cursor colors
 - Enhanced readability with proper contrast ratios
-## 📸 Preview
-
-![Fjord WezTerm Theme](https://raw.githubusercontent.com/fjord-theme/fjord/main/docs/images/colortest.png)
-
 
 ## 🔄 Updates
 
