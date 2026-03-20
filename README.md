@@ -33,28 +33,20 @@ A dusk-blue base with soft leaf-green accents, amber selections, and crisp blue/
 ### Manual Installation
 
 
-1. Clone this repository:
-
-```bash
-git clone https://github.com/fjord-themes/fjord-wezterm.git --depth 1
-```
-
-
-2. Copy the theme file to your WezTerm themes directory:
+1. Clone the theme to your config directory:
 
 ```bash
 mkdir -p ~/.config/wezterm/colors/
-cp fjord-wezterm/themes/fjord.lua ~/.config/wezterm/colors/.
+git clone https://github.com/fjord-themes/fjord-wezterm.git --depth 1 ~/.config/wezterm/colors/fjord-wezterm
 ```
 
-3. Add the theme to your WezTerm config (`~/.wezterm.lua`):
+2. Add to your config (`~/.wezterm.lua`):
 ```lua
+config.color_scheme_dirs = { os.getenv("HOME") .. "/.config/wezterm/colors/fjord-wezterm/themes" }
 config.color_scheme = "fjord"
 ```
 
-
-
-
+3. Restart WezTerm to apply the theme.
 
 
 ## 🔧 Configuration
