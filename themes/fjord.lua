@@ -37,4 +37,41 @@ return {
     "#A1E9DE",  -- bright cyan
     "#EFFAFF", -- bright white
   },
+
+  scrollbar_thumb = "#6C7A86",
+
+  tab_bar = {
+    background = "#1B2532",
+
+    active_tab = {
+      bg_color = "#2A3647",
+      fg_color = "#E8F0F3",
+      intensity = "Bold",
+      underline = "None",
+      italic = false,
+      strikethrough = false,
+    },
+
+    inactive_tab = {
+      bg_color = "#212128",
+      fg_color = "#A0ACB4",
+    },
+
+    inactive_tab_hover = {
+      bg_color = "#2A3647",
+      fg_color = "#E8F0F3",
+      italic = true,
+    },
+
+    new_tab = {
+      bg_color = "#1B2532",
+      fg_color = "#6C7A86",
+    },
+
+    new_tab_hover = {
+      bg_color = "#2A3647",
+      fg_color = "#E8F0F3",
+      italic = true,
+    },
+  },
 }
