@@ -2,6 +2,7 @@
 
 A dusk-blue base with soft leaf-green accents, amber selections, and crisp blue/cyan separation for WezTerm.
 
+
 ## 🎨 Color Palette
 
 ### Core Colors
@@ -57,7 +58,6 @@ The theme includes:
 - Optimized background and foreground colors
 - Custom selection and cursor colors
 - Enhanced readability with proper contrast ratios
-
 ## 🔄 Updates
 
 This theme is automatically generated from [fjord-core](https://github.com/fjord-themes/fjord-core) and deployed on every release. For an overview of all supported platforms and the full color palette, visit the [Fjord GitHub page](https://github.com/fjord-themes).
