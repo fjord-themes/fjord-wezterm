@@ -2,6 +2,8 @@
 
 A dusk-blue base with soft leaf-green accents, amber selections, and crisp blue/cyan separation for WezTerm.
 
+![Fjord WezTerm Theme](images/wezterm.png)
+
 
 ## 🎨 Color Palette
 
