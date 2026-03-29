@@ -40,7 +40,7 @@ A dusk-blue base with soft leaf-green accents, cyan selections, and crisp blue/c
 
 ```bash
 mkdir -p ~/.config/wezterm/colors/
-git clone https://git.jshuntley.com/fjord-theme/fjord-wezterm.git --depth 1 ~/.config/wezterm/colors/fjord-wezterm
+git clone https://github.com/fjord-themes/fjord-wezterm.git --depth 1 ~/.config/wezterm/colors/fjord-wezterm
 ```
 
 2. Add to your config (`~/.wezterm.lua`):
