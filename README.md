@@ -73,4 +73,4 @@ If you enjoy the Fjord theme and find it useful, consider supporting my work:
 MIT License - see [LICENSE](LICENSE) file for details.
 ## 🤝 Contributing
 
-For theme suggestions or issues, please open an issue on the [Fjord GitHub page](https://github.com/fjord-themes).
+For theme suggestions or issues, please open an issue on the [WezTerm theme repository](https://github.com/fjord-themes/fjord-wezterm/issues).
